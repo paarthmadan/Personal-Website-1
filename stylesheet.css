@@ -1,0 +1,200 @@
+#title{
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #FFFFFF;
+	font-size: 7vmin;
+}
+
+
+
+
+#welcome{
+	margin-top: 5vh;
+	text-align: center;
+	font-family: 'Asap', sans-serif;
+	color: #FFFFFF;
+}
+
+#sign{
+	font-size: 60px;
+}
+
+
+
+#horLine{
+	margin-top: 2.5vh;
+  border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,1), rgba(255,255,255,0));
+ 	background-image: -moz-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+ 	background-image: -ms-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+ 	background-image: -o-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+}
+
+#para{
+	text-align: center;
+	font-family: 'Asap', sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#info{
+	margin-top: 4vh;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 4vmin;
+	color: #FFFFFF;
+}
+#topic{
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #FFFFFF;
+	font-size: 5vmin;
+}
+
+#textBox{
+	width: 75vw;
+	position: absolute;
+	left: 12.5vw;
+}
+#button1{
+	text-align: center;
+	
+	line-height: 40px;
+	width:125px;
+	height: 40px;
+	font-size: 18px;
+	background-color: #1565C0;
+
+
+
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #FFFFFF;
+
+	position: absolute;
+
+	left: 50%;
+
+	margin: -20px 0 0 -62.5px;
+
+
+	margin-top: 50px;
+}
+
+#button1:hover{
+	background-color: #0D47A1;
+
+	position: absolute;
+	width: 140px;
+	height: 45px;
+	left: 50%;
+	margin: -22.5px 0 0 -70px;
+	margin-top: 50px;
+	line-height: 45px;
+}
+
+
+
+
+
+#button2{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	width:125px;
+	height: 40px;
+	font-size: 18px;
+	background-color: #1565C0;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #FFFFFF;
+
+	position: absolute;
+	
+	left: 50%;
+
+	margin:-20px 0 0 -62.5px;
+
+	margin-top: 125px;
+
+}
+
+#button2:hover{
+	background-color: #0D47A1;
+	position: absolute;
+	width: 140px;
+	height: 45px;
+	left: 50%;
+	margin: -22.5px 0 0 -70px;
+	margin-top: 125px;
+	line-height: 45px;
+}
+
+#button3{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	width:125px;
+	height: 40px;
+	font-size: 18px;
+	background-color: #1565C0;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #FFFFFF;
+	
+	
+	position: absolute;
+
+	left: 50%;
+
+	margin: -20px 0 0 -62.5px;
+
+	margin-top: 200px;
+
+}
+
+#button3:hover{
+	background-color: #0D47A1;
+	position: absolute;
+	width: 140px;
+	height: 45px;
+	left: 50%;
+	margin: -22.5px 0 0 -70px;
+	margin-top: 200px;
+	line-height: 45px;
+}
+
+
+
+#mainPage{
+	position: absolute;
+	top: 0vh;
+	left: 0;
+	height: 100vh;
+	width:100vw;
+	background-color: #2196F3;
+	z-index: 100;
+}
+
+
+#aboutPage{
+	position: absolute;
+	top: 100vh;
+	left: 0;
+	height: 100vh;
+	width:100vw;
+	background-color: #607D8B;
+	z-index: 100;
+}
+
+#projectsPage{
+	z-index: 100;
+	position: absolute;
+	top: 200vh;
+	left: 0;
+	height: 100vh;
+	width:100vw;
+	background-color: #4527A0;
+
+}
+
+

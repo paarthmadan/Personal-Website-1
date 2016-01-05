@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+  <meta name = "viewport" content = "width=device-width"> 
+
+
+
+</head>
+
+<title> Paarth Madan. </title>
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function (){
+            $("#button1").click(function (){
+                    $('html, body').animate({
+                        scrollTop: $("#aboutPage").offset().top
+                    }, 2000);
+            });
+        });
+
+        $(document).ready(function (){
+            $("#button2").click(function (){
+                    $('html, body').animate({
+                        scrollTop: $("#projectsPage").offset().top
+                    }, 2000);
+            });
+        });
+
+    </script>
+
+<body>
+
+
+
+<div id = "mainPage">
+
+	<h2 id = "welcome"> Welcome. </h2>
+	<hr id = "horLine">
+
+	<h1 id = "title">
+    Hey, I'm Paarth
+  </h1>
+
+	<h3 id = "para"> I love to do lots of stuff, like coding, <br> playing hockey, and inventing! </h3>
+
+
+	<a><div id = "button1">About Me</div> </a>
+	<div id = "button2">Projects</div>
+	<div id = "button3">Future</div>
+
+</div>
+
+<div id = "aboutPage">
+
+	<h2 id = "welcome">About <b>Me.</b></h2>
+	<hr id = "horLine">
+  <div id = "textBox">
+   <p id = "info"> <b id = "topic">Programming </b>- I love to program! I am familiar with quite a few languages<br> (Java, C#, Objective-C, Python), however I'm most comfortable while dealing with java, the first language I learned. </p>
+  
+  <p id = "info"> <b id = "topic">Science </b>- My favourite subject in school has always been science! I've always been interested in testing out problems and coming about a conclusion. In the future I hope to have a job in which I can apply both my love for science and programming together. </p>
+
+  <p id = "info"> <b id = "topic">Technology </b>- My largest interest is technology. I love all technology, be it the new iPhone 6s, or a 555 ic chip from 1971. During my spare time, I build circuits, create websites, develop apps, and much more! </p>
+
+
+
+  </div>
+</div>
+
+  <div id = "textBox">
+    <p id = "info"> hello </p>
+  </div>
+
+  
+<div id = "projectsPage">
+
+	<h2 id = "welcome">Projects</h2>
+	<hr id = "horLine">
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+</html>
